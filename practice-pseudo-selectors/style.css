@@ -1,0 +1,19 @@
+.txt{
+    width: 300px;
+    text-align: justify;
+    margin: 0px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-top: none;
+    padding: 20px;
+
+}
+
+.txt:hover {
+    background: #D65438;
+}
+
+.p7 {
+    border-bottom: none;
+    margin-bottom: 30px;
+}

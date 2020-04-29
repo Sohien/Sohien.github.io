@@ -1,0 +1,21 @@
+form {
+  width: 500px;
+  height: 700px;
+  margin: 20px;
+}
+
+.nametext {
+  width: 300px;
+}
+.othertext {
+  width: 240px;
+}
+
+.text {
+  height: 150px;
+  width: 300px;
+}
+
+button {
+  background: #D5D5D5;
+}

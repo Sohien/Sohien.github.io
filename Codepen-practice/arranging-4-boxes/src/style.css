@@ -1,0 +1,19 @@
+.container {
+  background: #ffd62a;
+  width: 400px;
+  height: 150px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.item{
+  background: #b02afe;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}

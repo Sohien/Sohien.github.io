@@ -1,0 +1,33 @@
+h1 {
+  font-size: 36px;
+  color: #FF8900;
+  font-family: 'Bangers', cursive;
+}
+
+h2 {
+  font-size: 28px;
+  color: #9500AC;
+  font-style: italic;
+}
+
+p {
+  text-align: center;  
+}
+
+ol {
+  list-style-type: upper-roman;
+  color: #EE5CAF;
+  font-weight: bold;
+ ;
+}
+.list1 {
+   text-decoration: underline;
+}
+
+div {
+  color: black;
+}
+
+span {
+  text-decoration: underline
+}

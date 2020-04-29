@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A complicated form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <fieldset>
+    <legend>Interesting application form &#128580</legend>
+    
+    <fieldset class="name">
+       <legend>What is your name?</legend>
+       <input class="nametext" type="text">
+    </fieldset>
+    
+    <fieldset class="color">
+      <legend>What is your favorite color?</legend>
+      <div>
+        <input type="checkbox" id="red">
+        <label for="red">Red</label>
+      </div>
+      <div>
+        <input type="checkbox" id="green">
+        <label for="green">Green</label>
+      </div>
+      <div>
+        <input type="checkbox" id="blue">
+        <label for="blue">Blue</label>
+      </div>
+      <div class="Other">
+        <input type="checkbox" id="other">
+        <label for="other">Other</label>
+        <input class="othertext" type="text">
+      </div>
+    </fieldset>
+    
+    <fieldset class="developer">
+      <legend>Would you like to become a developer?</legend>
+      <div>
+        <input type="radio" id="yes">
+        <label for="yes">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="ano">
+        <label for="ano">Ano</label>
+      </div>
+      <div>
+        <input type="radio" id="igen">
+        <label for="igen">Igen</label>
+      </div>
+      <div>
+        <input type="radio" id="chinese">
+        <label for="chinese">是</label>
+      </div>
+    </fieldset>
+    
+    <fieldset class="whydeveloper">
+      <legend>Why would you like to become a developer?</legend>
+      <input class="text" type="textarea">
+    </fieldset>
+    <button>Submit</button>
+   
+  </fieldset>
+</form>
+<!-- partial -->
+  
+</body>
+</html>

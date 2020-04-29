@@ -1,0 +1,29 @@
+.pic {
+  overflow: scroll;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  poisition: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+      
+.reveal:hover {
+  -webkit-transform: scale(1.5);
+  transition: transform 0.75s ease-in-out
+}
+
+.reveal:hover .base {
+  bottom: 0;
+  background-color: black;
+}
+
+.reveal:hover .picfront {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
