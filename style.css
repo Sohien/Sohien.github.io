@@ -1,187 +1,232 @@
 body {
-  line-height: 1.6;
-  color: #393939;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 10;
-  text-align: justify;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Header */
-
-header  {
-  background: #393939;
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-  margin-bottom:50px;
+.lines {
+    position: absolute;
+    height: 97%;
+    width: 86%;
+    right: 7%;
+    left: 7%;
+    top: 2%;
+    bottom: 0;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    box-shadow:  0px 0 420px grey;
+    outline: 5px solid white;
 }
 
-a {
-  padding: 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 44px;
- }
-
-/* First flex section */
-
-.introduction {
-  display: flex;
-  margin: 0px;
-  width: 90%;
-  justify-content: space-around;
-  border-bottom: 5px solid;
-}
-
-.header2 {
-  margin: -50px 0px 0px;
-  position: relative;
-  width: 70%;
-  /*border: 5px solid;*/
-  background: no-repeat url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
-  background-size: cover;
-  background-position: -500px 0px; 
-  text-align: center;
-  font-family: 'Abril Fatface', cursive;
-}
-
-.scrollup{
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: #393939;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 50px;
-  font-weight: bold;
-  
+#maincont {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-  line-height: 1.15;
-  position: absolute;
-  bottom: 0px;
-  left: 60px;
-  text-align: justify;
-  font-weight:550;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
 }
 
-.myname {
-  font-size: 56px
+p {
+    font-family: 'Orbitron', sans-serif;
 }
 
-.introtext {
-  margin-left: 80px;
-  margin-bottom: 100px;
-  width: 50%;
+
+#conttwo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -340px;
+    margin-left: -550px;
+    width: 1100px;
+    height: 600px;
+    background-image: radial-gradient(
+        200% 800px at center,
+        whitesmoke,
+        grey
+    );
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0 420px grey;
+
+
 }
 
-/* Second flex section */
-
-.notable {
-  margin: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
+.imagecenter {
+    position: relative;
+    width: 1000px;
+    height: 600px;
 }
 
-.achievements {
-  border-top: 3px solid black;
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-right: 100px;
-  width: 65%;
+#imggallery {
+    width: 1000px;
+    height: 600px;
+    object-fit: contain;
+    box-shadow: 0px 0px 3px;
 }
 
-/* Third flex section */
-
-.experiences {
-  margin: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+.gray-container {
+    position: absolute;
+    background: grey;
+    opacity: 0.6;
+    height: 35%;
+    text-align: center;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;  
+   
 }
 
-.infoexp {
-  border-top: 3px solid black;
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-right: 100px;
-  width: 65%;
-}
-
-/* Fourth flex section */
-
-.trainings {
-  margin: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.infotrain {
-  border-top: 3px solid black;
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-right: 100px;
-  width: 65%;
-}
-
-blockquote{
-  font-family: 'Abril Fatface', cursive;
-  background: #393939;
-  color: white;
-  width: 300px;
-  margin: 0px;
-  
-}
-
-blockquote::before {
-  display: inline-block;
-  line-height: 1;
-  font-size: 110px;
-  padding: 0px;
-  padding: 0px 0px -40px;
-  content: '\201C';
-}
-
-.quote {
-  margin: -60px 80px 60px;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 36px;
-  display: inline-block;
-  text-align: left;
-}
-
-.subtitle {
-  font-family: 'Merriweather', serif;
-  color: black;
-  font-weight: bold;
-  fontsize: 8px;
-  margin-top: -8px;
-}
-
-h2 {
-  font-weight: bold;
-  text-transform: uppercase;
+#photo-title {
+    position: absolute;
+    width: 100%;
+    bottom: 55%;
+    text-align: center;
+    left: 0;
     
 }
 
-h3 {
-  margin: 50px 0px 0px;
-  font-size: 23px;
-  font-weight: bold;
+#photo-description {
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    text-align: center;
+    left: 0;
+    font-size: 20px;
 }
 
-section {
-  margin: 50px 300px 0px;
+button {
+    width: 50px;
+    height: 100%;
+    box-shadow: 0px 0px 3px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
 }
-.interests {
-  border-top: 3px solid black;
-  width: 65%;
+
+button:hover {
+    box-shadow: 0px 0px 10px;
+}
+
+#buttonleft {
+    background-image: url(arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#buttonright {
+    background-image: url(arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    transform: scaleX(-1);
+}
+
+#thumbnail {
+    position: fixed;
+    width: 1200px;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 50%;
+    left: 50%;
+    margin-top: 290px;
+    margin-left: -600px;
+    align-items: center;
+    /*border: 1px solid black;*/
+    overflow: scroll;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px;
+    border: 1px solid black;
+    margin-top: 0px;
+    position: relative;
+    transition: all .2s linear;
+    
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+
+.highlight {
+    transition: bottom .2s ease-in-out;
+    transform: scale(1.3);
+    box-shadow: 0px 10px 10px black;
+    
+}
+
+
+.help {
+    position: absolute;
+    background-image: radial-gradient(
+        100% 100px at center,
+        whitesmoke,
+        grey
+    );
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 10%;
+    right: 10%;
+    transition: all .2s linear;
+    box-shadow: 0px 0px 10px;
+}
+
+.questionmark {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.helptext {
+    display: none;
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: -250px;
+    right: 50px;
+    width: 200px;
+    text-align: justify;
+    vertical-align: middle;
+  }
+  
+  .help:hover .helptext {
+    display: block;
+  }
+
+  .help:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px;
+  }
+
+
+#tail
+{
+position: absolute;
+background: grey;
+font-weight: bold;
+opacity: 0.7;
 }
